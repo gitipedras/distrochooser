@@ -1,5 +1,13 @@
 #/bin/bash
 
+echo 'To run the program please install:'
+echo 'neofetch'
+echo 'lolcat'
+echo 'cowsay'
+sleep 5
+
+echo 'The PROGRAM will start now.'
+
 cowsay -f tux Welcome to the distro chooser. | lolcat -a
 sleep 5
 cowsay -f tux With this file you can choose your linux distro.
